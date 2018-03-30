@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Google homepage</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    /*background-color: #333;*/
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: right;
+    display: block;
+    color: #000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a.blue_btn {
+  color: #f2f2f2;
+  background-color: #4285f4;
+  border: 1px solid #4285f4;
+  border-radius: 2px;
+}
+/* Change color on hover */
+.topnav a:hover {
+    /*background-color: #ddd;*/
+    color: black;
+    text-decoration: underline;
+}
+
+
+/* Style the content */
+.content {
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.content .img_box {
+  height: 233px;
+  margin-top: 89px;
+  padding-top: 100px;
+}
+.content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 92px;
+  width: 272px;
+}
+.content .search_box form {
+  text-align: center;
+}
+.content .search_box form input {
+  height: 40px;
+  width: 400px;
+  margin-bottom: 30px;
+}
+.content .search_box form button {
+  height: 30px;
+  background-color: #f2f2f2;
+border: 1px solid #f2f2f2;
+border-radius: 2px;
+color: #757575;
+cursor: default;
+font-family: arial, sans-serif;
+font-size: 13px;
+font-weight: bold;
+margin: 11px 4px;
+min-width: 54px;
+padding: 0 16px;
+text-align: center;
+}
+/* Style the footer */
+.footer {
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+    background-color: #f1f1f1;
+    color: #757575;
+    padding: 10px;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a href="#">Gmail</a>
+  <a href="#">Images</a>
+  <a href="#" class="blue_btn">Sign In</a>
+</div>
+
+<div class="content">
+  <div class="img_box">
+  <img src="https://www.google.co.jp/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+</div>
+<div class="search_box">
+  <form action="#">
+    <input title="Search" type="text">
+<br>
+  <button>Google Search</button>
+  <button>I'm Feeling Lucky</button>
+  </form>
+</div>
+</div>
+
+<div class="footer">
+  <p>Japan</p>
+</div>
+
+</body>
+</html>
